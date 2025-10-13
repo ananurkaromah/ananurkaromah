@@ -2,16 +2,14 @@
 
 
 
-⚡I’m a career switcher who spent my career break learning new skills in data fields. Now I’m diving into **Data Engineering**
+⚡**I’m a career switcher who spent my career break learning new skills in data fields. Now I’m diving into Data Engineering**
 
-👯 **I’m looking to collaborate on data related projects** that involve data cleaning, transformation, and building ETL pipelines.
+
+👯 **I’m looking to collaborate on data related projects that involve data cleaning, transformation, and building ETL pipelines.**
 
 
 ##### **Skill:**
-<img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
+<img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
 
 
 
