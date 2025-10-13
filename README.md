@@ -8,4 +8,4 @@
 
 -👯 **I’m looking to collaborate on data related projects** that involve data cleaning, transformation, and building ETL pipelines.
 
--📫 How to reach me: [Linkedin Ana Nurkaromah](!www.linkedin.com/in/ananurkaromah)
+-📫 How to reach me: [Linkedin Ana Nurkaromah](!https://www.linkedin.com/in/ananurkaromah/)
