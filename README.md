@@ -1,18 +1,18 @@
 ![Ana Nurkaromah](img/github-header-banner.png)
 
 
-#### Environmental Consultant specialized in hazardous waste management (B3) turned Data Engineer — **a career switcher** who used a career break to learn new skills in the data field and is now diving deeper into Data Engineering.
+#### A career switcher with 6+ years in hazardous waste (B3) consulting, now building scalable data systems and pipelines. I combine domain expertise + data engineering skills to create real-world, impactful data solutions.
 <br>
 
 ---
 
 ## 👩‍💻 About Me
-- 🌱 I spent 6 years working as an environmental consultant, specializing in hazardous and toxic waste management (B3)
-- 📊 I'm currently transitioning into Data Engineering, combining domain knowledge with technical data skills
-- 🛠️ I enjoy building real-world data projects, especially data pipelines and data platforms
-- 📚 Currently learning modern data engineering tools and cloud technologies
+- 🌱 6 years as an Environmental Consultant specializing in hazardous & toxic waste (B3)
+- 🔄 Transitioning into Data Engineering with hands-on, project-based learning
+- 🛠 Passionate about building end-to-end data pipelines & platforms
+- 📚 Continuously learning modern data stack & cloud technologies
 - 🌏 Based in Indonesia
-- 💡 I believe that domain expertise + data engineering skills can create impactful data solutions
+- 💡 Strong believer in data-driven solutions powered by domain knowledge
 <br>
 
 ----
@@ -35,16 +35,65 @@
 
 ---
 
-## 📂 Current Projects & Portfolio
+## 📂 Projects & Portfolio
 
-| Project | Description | Tools |
-| --------| ----------- |------ |
-| 🚕 **NYC Taxi Data Pipeline** | End-to-end data engineering pipeline from data ingestion to analytics using modern data stack | GCP, BigQuery, Terraform, Docker |
-| 🔄 **API Data Ingestion with dlt** | Building automated data ingestion pipelines from REST APIs into a data warehouse | Python, dlt |
-| 🏗 **Data Platform with Bruin** | Managing the entire data lifecycle including ingestion, transformation, orchestration and data quality | Bruin |
-| 📊 **Analytics Engineering Project** | Building analytics-ready data models using dbt with fact and dimension tables | dbt, BigQuery, DuckDB |
+### 🚕 NYC Taxi Data Pipeline (Bruin)
+🔗 Repo: ![link](https://github.com/ananurkaromah/nyc-taxi-data-pipeline-with-bruin) 
 
-**More projects coming soon!** 🚀
+End-to-end **modern data platform** built using Bruin to manage the full data lifecycle.
+
+**Highlights:**
+- Data ingestion → transformation → orchestration → data quality
+- Declarative pipeline using Bruin
+- Modular and production-style project structure
+
+**Tech Stack:** Bruin, SQL, Python, Docker  
+
+---
+
+### 🚕 NYC Taxi Data Pipeline (dlt)
+🔗 Repo: ![link](https://github.com/ananurkaromah/nyc-taxi-data-pipeline-with-dlt) 
+
+A scalable pipeline focusing on **data ingestion automation** using dlt.
+
+**Highlights:**
+- Extracting data from APIs and files
+- Incremental loading into data warehouse
+- Simple and reproducible pipeline design
+
+**Tech Stack:** Python, dlt, DuckDB / BigQuery  
+
+---
+
+### 🎙️ Suara Pipeline (Speech Intelligence)
+🔗 Repo: ![link](https://github.com/ananurkaromah/suara-pipeline) 
+
+Building a **speech-to-structured-data pipeline** for Southeast Asia use cases.
+
+**Highlights:**
+- Audio ingestion & preprocessing (FFmpeg)
+- Speech-to-text processing (multilingual & code-switching focus)
+- Transforming raw speech into structured datasets
+
+**Tech Stack:** Python, Docker, FFmpeg, Speech APIs / Models  
+
+---
+
+### 🏡 Estate Data Pipeline
+🔗 Repo: ![link](https://github.com/ananurkaromah/estate-pipe)  
+
+A pipeline for ingesting and processing **real estate data** using modern ETL practices.
+
+**Highlights:**
+- API-based data ingestion
+- Data cleaning and normalization
+- Pipeline orchestration with dlt
+
+**Tech Stack:** Python, dlt, DuckDB  
+
+---
+
+🚀 *Continuously building more real-world data engineering projects...*
 
 ---
 
@@ -80,6 +129,8 @@
 💡 Always curious — constantly learning something new in **data engineering**
 
 ---
+
+⭐ Open to Data Engineering Internships & Opportunities
 
 ## 🤝 Connect with Me
 
