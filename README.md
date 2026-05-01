@@ -95,29 +95,6 @@ A pipeline for ingesting and processing **real estate data** using modern ETL pr
 
 🚀 *Continuously building more real-world data engineering projects...*
 
----
-
-## 🚀 Currently Leveling Up
-
-⚙️ **Data Engineering Pipelines**
-
-- Building scalable data pipelines
-- Data orchestration & automation
-
-☁️ **Cloud Data Platforms**
-
-- Google Cloud Platform
-- BigQuery data warehousing
-
-⚡ **Big Data Processing**
-
-- Apache Spark
-- Distributed data processing
-
-🌊 **Streaming Data Systems**
-
-- Apache Kafka
-- Event-driven data pipelines
 
 ---
 ## 🎯 Fun & Personal
