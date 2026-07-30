@@ -19,7 +19,7 @@
 
 ## 🛠️ Skills & Tools
 **Languages & Querying**
-![SQL](https://img.shields.io/badge/SQL-Server-blue?logo=microsoftsqlserver&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue?logo=postgresql&logoColor=white) ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+[PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue?logo=postgresql&logoColor=white) ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
 
 
 **Data Engineering Tools** <br>
