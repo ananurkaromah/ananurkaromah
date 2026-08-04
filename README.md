@@ -6,104 +6,74 @@
 
 ---
 
-## 👩‍💻 About Me
-- 🌱 6 years as an Environmental Consultant specializing in hazardous & toxic waste (B3)
-- 🔄 Transitioning into Data Engineering with hands-on, project-based learning
-- 🛠 Passionate about building end-to-end data pipelines & platforms
-- 📚 Continuously learning modern data stack & cloud technologies
-- 🌏 Based in Indonesia
-- 💡 Strong believer in data-driven solutions powered by domain knowledge
+## About Me
+- 6 years as an Environmental Consultant specializing in hazardous & toxic waste (B3)
+- Transitioning into Data Engineering with hands-on, project-based learning
+- Passionate about building end-to-end data pipelines & platforms
+- Continuously learning modern data stack & cloud technologies
+- Based in Indonesia
+- Strong believer in data-driven solutions powered by domain knowledge
 <br>
 
 ----
 
-## 🛠️ Skills & Tools
-**Languages & Querying**
-[PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue?logo=postgresql&logoColor=white) ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
-
-
-**Data Engineering Tools** <br>
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white) ![Apache-Spark](https://img.shields.io/badge/Apache_Spark-FFFFFF?style=for-the-badge&logo=apachespark&logoColor=#E35A16) ![DBT](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
-
-**Databases & Data Warehousing**<br>
-![DuckDB](https://img.shields.io/badge/Duckdb-000000?style=for-the-badge&logo=Duckdb&logoColor=yellow) ![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=BigQuery&logoColor=white)
-
-
-
-**Tools & Environments** <br>
-![VS Code](https://img.shields.io/badge/VS%20Code-Editor-blue?logo=visualstudiocode&logoColor=white)  ![Notion](https://img.shields.io/badge/Notion-black?logo=notion&logoColor=white)  ![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-black?logo=github&logoColor=white)
+## Skills & Tools
+- Databases: PostgreSQL, BigQuery, DuckDB
+- Programming: SQL, Python
+- Data Engineering & Data Platforms: dbt, dlt, Apache Spark, Apache Kafka, PySpark, Kestra, Great Expectations, Bruin
+- Cloud & Infrastructure: Google Cloud Platform, Docker, Terraform
+- Analytics & Visualization: Metabase, Looker Studio
+- Version Control: Git, GitHub
 
 ---
 
 ## 📂 Projects & Portfolio
 
-### 🚕 NYC Taxi Data Pipeline (Bruin)
-🔗 Repo: ![link](https://github.com/ananurkaromah/nyc-taxi-data-pipeline-with-bruin) 
+### estate-pipe |🏡 UK Real Estate ELT Pipeline 
+🔗 <a href="https://github.com/ananurkaromah/estate-pipe">Repo</a>
 
-End-to-end **modern data platform** built using Bruin to manage the full data lifecycle.
-
+**Tech Stack:** Python, PostgreSQL, PySpark, Kestra, Docker, Great Expectations, Metabase.
 **Highlights:**
-- Data ingestion → transformation → orchestration → data quality
-- Declarative pipeline using Bruin
-- Modular and production-style project structure
-
-**Tech Stack:** Bruin, SQL, Python, Docker  
+- Built a containerized ELT pipeline processing over 90,000 monthly UK property transactions.
+- Designed PostgreSQL schemas and developed automated ingestion workflows using Python and dlt.
+- Implemented incremental loading, idempotent transformations, and scalable data processing workflows using PySpark.
+- Integrated automated data quality testing using Great Expectations.
+- Orchestrated workflows with Kestra and Docker.
+- Delivered analytics dashboards for property pricing and geographic trend analysis.
 
 ---
+### suara-pipeline | 🎙️ Indonesian Regional Speech Intelligence Pipeline  
+🔗 <a href="https://github.com/ananurkaromah/suara-pipeline">Repo</a>
 
-### 🚕 NYC Taxi Data Pipeline (dlt)
-🔗 Repo: ![link](https://github.com/ananurkaromah/nyc-taxi-data-pipeline-with-dlt) 
-
-A scalable pipeline focusing on **data ingestion automation** using dlt.
-
+**Tech Stack:** Python, BigQuery, GCS, Terraform, Docker, Bruin, Looker Studio
 **Highlights:**
-- Extracting data from APIs and files
-- Incremental loading into data warehouse
-- Simple and reproducible pipeline design
-
-**Tech Stack:** Python, dlt, DuckDB / BigQuery  
-
+- Built a cloud-native data platform processing 10GB+ of Indonesian regional speech data.
+- Automated ingestion from Kaggle API into Google Cloud Storage and BigQuery.
+- Developed incremental ingestion and transformation workflows.
+- Integrated AI-powered transcription using Faster-Whisper models.
+- Managed infrastructure provisioning using Terraform.
+- Delivered analytics-ready datasets and dashboards using BigQuery and Looker Studio.
+  
 ---
+### 🚕 NYC Taxi-pipeline (GitHub Repo) | DataTalksClub Project
+🔗 <a href="https://github.com/ananurkaromah/nyc-taxi-data-pipeline-with-dlt">Repo</a>
 
-### 🎙️ Suara Pipeline (Speech Intelligence)
-🔗 Repo: ![link](https://github.com/ananurkaromah/suara-pipeline) 
-
-Building a **speech-to-structured-data pipeline** for Southeast Asia use cases.
-
+**Tech Stack:** Python, DuckDB, Docker, dlt, Metabase
 **Highlights:**
-- Audio ingestion & preprocessing (FFmpeg)
-- Speech-to-text processing (multilingual & code-switching focus)
-- Transforming raw speech into structured datasets
-
-**Tech Stack:** Python, Docker, FFmpeg, Speech APIs / Models  
-
----
-
-### 🏡 Estate Data Pipeline
-🔗 Repo: ![link](https://github.com/ananurkaromah/estate-pipe)  
-
-A pipeline for ingesting and processing **real estate data** using modern ETL practices.
-
-**Highlights:**
-- API-based data ingestion
-- Data cleaning and normalization
-- Pipeline orchestration with dlt
-
-**Tech Stack:** Python, dlt, DuckDB  
-
+- Built automated ELT workflows for ingesting and analyzing NYC Taxi data.
+- Implemented incremental loading patterns and data transformations.
+- Created analytics dashboards to support operational insights.
+- Managed containerized environments using Docker Compose
 ---
 
 🚀 *Continuously building more real-world data engineering projects...*
 
-
 ---
-## 🎯 Fun & Personal
+## Fun & Personal
 
-📚 I enjoy **learning new technologies and exploring the data ecosystem**
-
-🧩 Problem solver — I enjoy debugging pipelines and solving technical challenges
-
-💡 Always curious — constantly learning something new in **data engineering**
+- I enjoy **learning new technologies and exploring the data ecosystem**
+- Problem solver — I enjoy debugging pipelines and solving technical challenges
+- Always curious — constantly learning something new in **data engineering**
 
 ---
 
@@ -111,4 +81,5 @@ A pipeline for ingesting and processing **real estate data** using modern ETL pr
 
 ## 🤝 Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ana%20Nurkaromah-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ananurkaromah/?locale=en-US)
+- <a href="https://linkedin.com/in/ananurkaromah">LinkedIn</a>
+- <a href="https://discord.com/users/1462129586459644118">Discord</a>
