@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+.env
+*.log
+logs/
+*.tfstate
+*.tfstate.backup
+.terraform/
+*-key.json
+gcp-key.json
+*.db
+dist/
+build/
