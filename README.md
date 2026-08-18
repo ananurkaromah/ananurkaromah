@@ -15,7 +15,7 @@
 - Strong believer in data-driven solutions powered by domain knowledge
 <br>
 
-----
+---
 
 ## Skills & Tools
 - **Databases:** PostgreSQL, BigQuery, DuckDB, Lakebase
@@ -43,6 +43,7 @@
 - Built and deployed the application as a Databricks App, integrating data, retrieval, and AI agent components into a unified workflow.
 - Applied context engineering and tool-based agent design to provide grounded, actionable job-search recommendations
 
+---
 
 ### estate-pipe | UK Real Estate ELT Pipeline 
 🔗 <a href="https://github.com/ananurkaromah/estate-pipe">Repo</a>
