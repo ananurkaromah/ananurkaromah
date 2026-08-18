@@ -18,18 +18,33 @@
 ----
 
 ## Skills & Tools
-- Databases: PostgreSQL, BigQuery, DuckDB
-- Programming: SQL, Python
-- Data Engineering & Data Platforms: dbt, dlt, Apache Spark, Apache Kafka, PySpark, Kestra, Great Expectations, Bruin
-- Cloud & Infrastructure: Google Cloud Platform, Docker, Terraform
-- Analytics & Visualization: Metabase, Looker Studio
-- Version Control: Git, GitHub
+- **Databases:** PostgreSQL, BigQuery, DuckDB, Lakebase
+- **Programming:** SQL, Python
+- **Data Engineering & Data Platforms:** dbt, dlt, Apache Spark, PySpark, Kestra, Great Expectations, Bruin
+- **AI & Data Applications:** Vector Search, RAG, MCP, AI Agents, Databricks Apps
+- **Cloud & Infrastructure:** Databricks, Google Cloud Platform, Docker, Terraform
+- **Analytics & Visualization:** Metabase, Looker Studio
+- **Version Control:** Git, GitHub
+
 
 ---
 
-## 📂 Projects & Portfolio
+## Projects & Portfolio
 
-### estate-pipe |🏡 UK Real Estate ELT Pipeline 
+### jobhunt-ai-agent | AI-Powered Job Hunting Copilot| DataExpert.io Capstone Project
+🔗<a href="https://github.com/ananurkaromah/agentic-job-search">Repo</a>
+
+**Tech Stack:** Python, Databricks, Lakebase, Vector Search, RAG, AI Agents, REST API, Databricks Apps.
+**Highlights:**
+- Built an AI-powered job hunting application combining structured and unstructured data retrieval with agentic workflows.
+- Designed a Lakehouse-based architecture using Lakebase for relational application data and vector search for semantic retrieval.
+- Implemented RAG-based job matching to connect job requirements with candidate skills and experience.
+- Developed AI agent tools for job discovery, matching, and application management through REST APIs.
+- Built and deployed the application as a Databricks App, integrating data, retrieval, and AI agent components into a unified workflow.
+- Applied context engineering and tool-based agent design to provide grounded, actionable job-search recommendations
+
+
+### estate-pipe | UK Real Estate ELT Pipeline 
 🔗 <a href="https://github.com/ananurkaromah/estate-pipe">Repo</a>
 
 **Tech Stack:** Python, PostgreSQL, PySpark, Kestra, Docker, Great Expectations, Metabase.
@@ -42,7 +57,7 @@
 - Delivered analytics dashboards for property pricing and geographic trend analysis.
 
 ---
-### suara-pipeline | 🎙️ Indonesian Regional Speech Intelligence Pipeline  
+### suara-pipeline | Indonesian Regional Speech Intelligence Pipeline | DataTalksClub Capstone Project
 🔗 <a href="https://github.com/ananurkaromah/suara-pipeline">Repo</a>
 
 **Tech Stack:** Python, BigQuery, GCS, Terraform, Docker, Bruin, Looker Studio
@@ -55,7 +70,7 @@
 - Delivered analytics-ready datasets and dashboards using BigQuery and Looker Studio.
   
 ---
-### 🚕 NYC Taxi-pipeline (GitHub Repo) | DataTalksClub Project
+### NYC Taxi-pipeline (GitHub Repo) | DataTalksClub Homework Project
 🔗 <a href="https://github.com/ananurkaromah/nyc-taxi-data-pipeline-with-dlt">Repo</a>
 
 **Tech Stack:** Python, DuckDB, Docker, dlt, Metabase
@@ -66,7 +81,7 @@
 - Managed containerized environments using Docker Compose
 ---
 
-🚀 *Continuously building more real-world data engineering projects...*
+*Continuously building more real-world data engineering projects...*
 
 ---
 ## Fun & Personal
@@ -77,9 +92,9 @@
 
 ---
 
-⭐ Open to Data Engineering Internships & Opportunities
+Open to Data Engineering Internships & Opportunities
 
-## 🤝 Connect with Me
+## Connect with Me
 
 - <a href="https://linkedin.com/in/ananurkaromah">LinkedIn</a>
 - <a href="https://discord.com/users/1462129586459644118">Discord</a>
