@@ -45,17 +45,18 @@
 
 ---
 
-### estate-pipe | UK Real Estate ELT Pipeline 
-🔗 <a href="https://github.com/ananurkaromah/estate-pipe">Repo</a>
+### uk-estate-pipeline | UK Real Estate ELT Pipeline 
+🔗 <a href="https://github.com/ananurkaromah/uk-estate-pipeline">Repo</a>
 
-**Tech Stack:** Python, PostgreSQL, PySpark, Kestra, Docker, Great Expectations, Metabase.
+**Tech Stack:** Apache Airflow, PostgreSQL, dbt, Docker, Metabase.
 **Highlights:**
-- Built a containerized ELT pipeline processing over 90,000 monthly UK property transactions.
-- Designed PostgreSQL schemas and developed automated ingestion workflows using Python and dlt.
-- Implemented incremental loading, idempotent transformations, and scalable data processing workflows using PySpark.
-- Integrated automated data quality testing using Great Expectations.
-- Orchestrated workflows with Kestra and Docker.
-- Delivered analytics dashboards for property pricing and geographic trend analysis.
+-	Built a containerized ELT pipeline integrating 3 UK property/geographic data sources into a medallion-architecture (bronze/silver/gold) warehouse
+-	Designed PostgreSQL schemas and Python ingestion scripts for CSV, REST API, and zip-archived sources
+-	Built dbt models with a source-reconciliation layer resolving conflicts between two postcode reference datasets
+-	Implemented automated data quality tests (uniqueness, not-null, accepted-values) as a pipeline gate
+-	Orchestrated ingest-transform-test workflows with Airflow, fully containerized via Docker Compose
+-	Delivered a self-hosted Metabase BI layer for pricing and regional trend analysis
+
 
 ---
 ### suara-pipeline | Indonesian Regional Speech Intelligence Pipeline | DataTalksClub Capstone Project
