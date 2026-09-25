@@ -5,7 +5,7 @@
 <br>
 
 ---
-=======
+
 ## Skills & Tools
 - Databases: PostgreSQL, BigQuery, Lakebase
 - Programming: SQL, Python
@@ -19,7 +19,6 @@
 
 ## Projects & Portfolio
 
-=======
 ### remote-jobs-pipeline | Remote Job Semantic Pipeline (Open-Source Project) 
 🔗 <a href="https://github.com/ananurkaromah/remote-jobs-pipeline">Repo</a>[GiHub Repo]
 
@@ -30,7 +29,6 @@
 -	Generated vector embeddings using HuggingFace SentenceTransformers (bge-small-en-v1.5) with structured text templating.
 -	Upserted normalized metadata and vector arrays into Supabase (pgvector) using an idempotent architecture, enabling advanced hybrid search for LLM-powered job matching.
 
----
 
 ### uk-estate-pipe |🏡 UK Real Estate ELT Pipeline 
 🔗 <a href="https://github.com/ananurkaromah/uk-estate-pipeline">Repo</a>
@@ -44,7 +42,7 @@
 -	Orchestrated ingest-transform-test workflows with Airflow, fully containerized via Docker Compose.
 -	Delivered a gold-layer fact table of 101.334 property transactions across 363 regions, powering a self-hosted Metabase BI layer for pricing and regional trend analysis.
 
----
+
 ### jobhunt-ai-agent  |  AI-Powered Job Hunting Copilot |  DataExpert.io Capstone
 🔗 <a href="https://github.com/ananurkaromah/agentic-job-search">Repo</a>
 
@@ -57,9 +55,8 @@
 -	Developed AI agent tools for job discovery, matching, and application management through REST APIs.
 -	Built and deployed the application as a Databricks App, integrating data, retrieval, and AI agent components into a unified workflow.
 -	Applied context engineering and tool-based agent design to provide grounded, actionable job-search recommendations.
->>>>>>> 4c22946 (update porto)
 
----
+
 
 ### uk-estate-pipeline | UK Real Estate ELT Pipeline 
 🔗 <a href="https://github.com/ananurkaromah/uk-estate-pipeline">Repo</a>
@@ -73,7 +70,7 @@
 -	Orchestrated ingest-transform-test workflows with Airflow, fully containerized via Docker Compose
 -	Delivered a self-hosted Metabase BI layer for pricing and regional trend analysis
 
----
+
 ### suara-pipeline | Indonesian Regional Speech Intelligence Pipeline | DataTalksClub Capstone Project
 🔗 <a href="https://github.com/ananurkaromah/suara-pipeline">Repo</a>
 
@@ -86,7 +83,7 @@
 - Managed infrastructure provisioning using Terraform.
 - Delivered analytics-ready datasets and dashboards using BigQuery and Looker Studio.
   
----
+
 ### NYC Taxi-pipeline (GitHub Repo) | DataTalksClub Homework Project
 🔗 <a href="https://github.com/ananurkaromah/nyc-taxi-data-pipeline-with-dlt">Repo</a>
 
