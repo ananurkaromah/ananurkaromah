@@ -1,8 +1,7 @@
 ![Ana Nurkaromah](img/github-header-banner.png)
 
 
-#### Career switcher transitioning from 6+ years in environmental engineering and industrial consulting into data engineering, backed by structured training (DataTalksClub Zoomcamp, DataExpert.io) and three end-to-end portfolio projects covering ELT pipelines, cloud data platforms, and AI-enabled applications. Hands-on with Python, SQL, PostgreSQL, Docker, Airflow, dbt, and Databricks. Brings strong analytical rigor, technical documentation, and problem-solving habits carried over from a prior engineering and research career, now applied to building and shipping production-style data pipelines.
-<br>
+##### Career switcher transitioning from 6+ years in environmental engineering and industrial consulting into data engineering, backed by structured training (DataTalksClub Zoomcamp, DataExpert.io) and three end-to-end portfolio projects covering ELT pipelines, cloud data platforms, and AI-enabled applications. Hands-on with Python, SQL, PostgreSQL, Docker, Airflow, dbt, and Databricks. Brings strong analytical rigor, technical documentation, and problem-solving habits carried over from a prior engineering and research career, now applied to building and shipping production-style data pipelines.
 
 ---
 
@@ -20,7 +19,7 @@
 ## Projects & Portfolio
 
 ### remote-jobs-pipeline | Remote Job Semantic Pipeline (Open-Source Project) 
-🔗 <a href="https://github.com/ananurkaromah/remote-jobs-pipeline">Repo</a>[GiHub Repo]
+🔗 <a href="https://github.com/ananurkaromah/remote-jobs-pipeline">Repo</a>
 
 **Tech Stack:** Python, PostgreSQL (Supabase, pgvector), GCS, GitHub Actions
 **Highlights:**
@@ -93,7 +92,6 @@
 - Implemented incremental loading patterns and data transformations.
 - Created analytics dashboards to support operational insights.
 - Managed containerized environments using Docker Compose
----
 
 *Continuously building more real-world data engineering projects...*
 
@@ -104,9 +102,9 @@
 - Problem solver — I enjoy debugging pipelines and solving technical challenges
 - Always curious — constantly learning something new in **data engineering**
 
----
-
 Open to Data Engineering Internships & Opportunities
+
+---
 
 ## Connect with Me
 
