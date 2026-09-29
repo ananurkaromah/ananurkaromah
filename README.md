@@ -19,7 +19,7 @@
 ## Projects & Portfolio
 
 ### remote-jobs-pipeline | Remote Job Semantic Pipeline (Open-Source Project) 
-🔗 <a href="https://github.com/ananurkaromah/remote-jobs-pipeline">Repo</a>
+<a href="https://github.com/ananurkaromah/remote-job-pipeline">Repo</a>
 
 **Tech Stack:** Python, PostgreSQL (Supabase, pgvector), GCS, GitHub Actions
 **Highlights:**
@@ -29,8 +29,8 @@
 -	Upserted normalized metadata and vector arrays into Supabase (pgvector) using an idempotent architecture, enabling advanced hybrid search for LLM-powered job matching.
 
 
-### uk-estate-pipe |🏡 UK Real Estate ELT Pipeline 
-🔗 <a href="https://github.com/ananurkaromah/uk-estate-pipeline">Repo</a>
+### uk-estate-pipe |UK Real Estate ELT Pipeline 
+<a href="https://github.com/ananurkaromah/uk-estate-pipeline">Repo</a>
 
 **Tech Stack:** Apache Airflow, PostgreSQL, dbt, Docker, Metabase.
 **Highlights:**
@@ -43,7 +43,7 @@
 
 
 ### jobhunt-ai-agent  |  AI-Powered Job Hunting Copilot |  DataExpert.io Capstone
-🔗 <a href="https://github.com/ananurkaromah/agentic-job-search">Repo</a>
+<a href="https://github.com/ananurkaromah/agentic-job-search">Repo</a>
 
 **Tech Stack:** Python, Databricks, Lakebase, Vector Search, RAG, AI Agents, REST API, MCP, Databricks Apps  
 
@@ -58,7 +58,7 @@
 
 
 ### uk-estate-pipeline | UK Real Estate ELT Pipeline 
-🔗 <a href="https://github.com/ananurkaromah/uk-estate-pipeline">Repo</a>
+<a href="https://github.com/ananurkaromah/uk-estate-pipeline">Repo</a>
 
 **Tech Stack:** Apache Airflow, PostgreSQL, dbt, Docker, Metabase.
 **Highlights:**
@@ -71,7 +71,7 @@
 
 
 ### suara-pipeline | Indonesian Regional Speech Intelligence Pipeline | DataTalksClub Capstone Project
-🔗 <a href="https://github.com/ananurkaromah/suara-pipeline">Repo</a>
+<a href="https://github.com/ananurkaromah/suara-pipeline">Repo</a>
 
 **Tech Stack:** Python, BigQuery, GCS, Terraform, Docker, Bruin, Looker Studio
 **Highlights:**
@@ -84,7 +84,7 @@
   
 
 ### NYC Taxi-pipeline (GitHub Repo) | DataTalksClub Homework Project
-🔗 <a href="https://github.com/ananurkaromah/nyc-taxi-data-pipeline-with-dlt">Repo</a>
+<a href="https://github.com/ananurkaromah/nyc-taxi-data-pipeline-with-dlt">Repo</a>
 
 **Tech Stack:** Python, DuckDB, Docker, dlt, Metabase
 **Highlights:**
