@@ -53,8 +53,7 @@
 ### AI-Powered Job Hunting Copilot | agentic-job-search |  DataExpert.io Capstone
 <a href="https://github.com/ananurkaromah/agentic-job-search">Repo</a>
 
-**Tech Stack:** Python, Databricks, Lakebase, Vector Search, RAG, AI Agents, REST API, MCP, Databricks Apps  
-
+**Tech Stack:** Python, Databricks, Lakebase, Vector Search, RAG, AI Agents, REST API, MCP, Databricks Apps.
 **Highlights:**
 - Built an AI job search application using lakebase to structure relational data in a lakehouse design, and used Databricks Vector Search for semantic retrieval.
  - Created RAG-based matching of job reqs to candidate skills, and provided agent tools for job discovery, matching, and application through a set of REST APIs.
