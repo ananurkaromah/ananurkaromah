@@ -33,13 +33,9 @@
 **Tech Stack:** Python, PostgreSQL (Supabase, pgvector), GCS, GitHub Actions
 **Highlights:**
 - Automated ingestion from four external job board APIs using Python and GitHub Actions with per-source failure isolation and quota-aware degradation.
-
 - Used content-addressed job IDs to achieve upsert semantics to achieve deterministic loading to eliminate duplicates when safe reruns occurred. Also achieved cross-source deduplication.
-
 - Designed and validated a tri-state eligibility classifier using a hand-labeled evaluation set based on geographic and visa restrictions.
-
 - Increased reliability through 67 automated unit tests, 25 architecture decision records, least-privilege database access, and three-tier Discord webhook monitoring; resolved and diagnosed incidents with API and CI/CD registry.
-
 - Added hybrid semantic and SQL job search through the use of pgvector, a postgreSQL RPC function, and bge-small-en-v1.5 embeddings.
 
 ### Indonesian Regional Speech Intelligence Pipeline | suara-pipeline
@@ -61,9 +57,7 @@
 
 **Highlights:**
 - Built an AI job search application using lakebase to structure relational data in a lakehouse design, and used Databricks Vector Search for semantic retrieval.
-
  - Created RAG-based matching of job reqs to candidate skills, and provided agent tools for job discovery, matching, and application through a set of REST APIs.
-
  - Combined and integrated the data, retrieval, and agent workflow, and deployed it as a Databricks App.
 
 
