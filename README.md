@@ -5,62 +5,62 @@
 ---
 
 ## Skills & Tools
-- Databases: PostgreSQL, BigQuery, Lakebase
-- Programming: SQL, Python
-- Data Engineering & Platforms: dbt, Apache Spark, PySpark, Kestra, Apache Airflow, Kestra, GitHub Actions
-- AI & Data Applications: Vector Search (via pgvector), RAG, MCP, AI Agents, Databricks Apps
-- Cloud & Infrastructure: Databricks, Google Cloud Platform, Docker, Terraform
-- Analytics & Visualization: Metabase, Looker Studio
-- Version Control: Git, GitHub
+- **Languages:** Python, SQL
+- **Data engineering:** ETL/ELT, batch ingestion, REST APIs, idempotent loading (UPSERT), incremental models, historical backfill, deduplication, data validation, data reconciliation
+- **Data quality and monitoring:** dbt tests, uniqueness and not-null checks, failure alerting (Discord webhooks), CI checks
+- **Databases and warehouses:** PostgreSQL, BigQuery
+- **Transformation and orchestration:** dbt, Apache Airflow, Bruin
+- **Cloud and DevOps:** Google Cloud Platform (GCS, BigQuery), Terraform, Docker, Docker Compose, Git, GitHub Actions
+- **Data modeling and BI:** Medallion (bronze/silver/gold) architecture, dimensional modeling, fact tables, Metabase, Looker Studio
+- **Familiar with (training and early-stage projects):** Apache Spark/PySpark, Kafka, Kestra, dlt, Databricks, Supabase, pgvector, embeddings, RAG
 
 ---
 
 ## Projects & Portfolio
 
-### UK Property ELT Pipeline | uk-estate-pipeline 
+### - UK Property ELT Pipeline | uk-estate-pipeline 
 <a href="https://github.com/ananurkaromah/uk-estate-pipeline">Repo</a>
 
 **Tech Stack:** Apache Airflow, PostgreSQL, dbt, Docker, Metabase.
 <br>**Highlights:**
-- Developed ELT pipeline in Airflow to transfer HM Land Registry Price Paid Data, ONS NSPL and postcodes.io data into a Bronze/Silver/Gold data warehouse, backfilling 5.2 million transactions.
-- Diagnosed data loss (row counts decreasing because the source file is not cumulative) and solved by using an idempotent UPSERT in conjunction with an incremental dbt model.
-- Increased geographic coverage from 94.8% to 99.9% by fixing an ingestion defect (1/150 NSPL files), and adding ONS-first postcode reconciliation.
-- Added failure alerting (Discord webhook), atomic reference-table reloads, dbt data quality tests, and GitHub Actions to build Airflow and dbt images, and test the dbt project, on every push.
+- Developed an Airflow + dbt ELT pipeline loading HM Land Registry Price Paid Data, ONS NSPL and postcodes.io into a bronze/silver/gold PostgreSQL warehouse, with monthly updates and a 2021-2025 historical backfill (5.2 million transactions).
+- Diagnosed data loss (row counts decreasing because the source file is not cumulative) and solved it with an idempotent UPSERT and an incremental dbt model.
+- Increased geographic coverage from 94.8% to 99.99% by fixing an ingestion defect (1 of 150 NSPL files) and adding ONS-first postcode reconciliation.
+- Added failure alerting (Discord webhook), atomic reference-table reloads, dbt data quality tests and GitHub Actions CI that builds the Airflow and dbt images and tests the dbt project on every push; verified end to end with a clean clone-and-run.
+- Delivered a three-tab Metabase dashboard on the gold layer (data quality KPIs, price trends and top districts by CAGR, segmentation by property type), flagging price outliers above £10M and applying minimum-sample rules to keep metrics reliable.
 
-### Remote Data Engineer ETL Pipeline | remote-job-pipeline
+### - Remote Data Engineer ETL Pipeline | remote-job-pipeline
 <a href="https://github.com/ananurkaromah/remote-job-pipeline">Repo</a>
 
 **Tech Stack:** Python, PostgreSQL (Supabase, pgvector), GCS, GitHub Actions
 <br>**Highlights:**
-- Automated ingestion from four external job board APIs using Python and GitHub Actions with per-source failure isolation and quota-aware degradation.
-- Used content-addressed job IDs to achieve upsert semantics to achieve deterministic loading to eliminate duplicates when safe reruns occurred. Also achieved cross-source deduplication.
-- Designed and validated a tri-state eligibility classifier using a hand-labeled evaluation set based on geographic and visa restrictions.
-- Increased reliability through 67 automated unit tests, 25 architecture decision records, least-privilege database access, and three-tier Discord webhook monitoring; resolved and diagnosed incidents with API and CI/CD registry.
-- Added hybrid semantic and SQL job search through the use of pgvector, a postgreSQL RPC function, and bge-small-en-v1.5 embeddings.
+- Automated daily ingestion from four job-board APIs with Python and GitHub Actions, using per-source failure isolation, quota-aware degradation and Discord monitoring that reports skipped records.
+- Used content-addressed job IDs for upsert semantics, so reruns are deterministic and cross-source duplicates are removed.
+- Designed a tri-state eligibility classifier (eligible, restricted, unknown) validated on a hand-labeled set covering geographic and visa restrictions.
+- Added hybrid semantic and SQL job search with pgvector, a PostgreSQL RPC function and bge-small-en-v1.5 embeddings.
+- Traced a 47-minute CI build hang to Docker Hub rate limiting and fixed it by switching to the AWS ECR Public base image and pinning ML dependencies.
 
-### Indonesian Regional Speech Intelligence Pipeline | suara-pipeline
+
+### - Indonesian Regional Speech Intelligence Pipeline | suara-pipeline
 
 <a href="https://github.com/ananurkaromah/suara-pipeline">Repo</a>
 
 **Tech Stack:** Python, BigQuery, GCS, Terraform, Docker, Bruin, Faster-Whisper, Looker Studio
 <br>**Highlights:**
 - Provisioned a GCS data lake and a BigQuery warehouse using Terraform to process a 10GB+ speech dataset with 5 different Indonesian accents.
-- Designed and implemented a Bruin DAG to extract data from BigQuery, load it to a SQL table and transcript it, and perform NOT NULL and UNIQUE checks.
-- Made the BigQuery warehouse more organized by partitioning by date and clustering by file name; made GCS uploads idempotent by skipping over already uploaded files.
-- Extracted audio data, transcripted it, encoded transcription duration, and speech model metadata, for 117 records. Moreover, visualized accent distribution and ingestion volume using Looker Studio.
+- Built a Bruin DAG that loads audio metadata into BigQuery, transcribes speech with faster-whisper and enforces NOT NULL and UNIQUE checks.
+- Optimized the BigQuery warehouse with date partitioning and clustering by file name, and made GCS uploads idempotent by skipping files already uploaded.
+- Transcribed a 117-record sample, storing transcript, duration and model metadata, and visualized accent distribution and ingestion volume in Looker Studio.
 
-
-### AI-Powered Job Hunting Copilot | agentic-job-search |  DataExpert.io Capstone
+### - AI-Powered Job Hunting Copilot | agentic-job-search |  DataExpert.io Capstone
 <a href="https://github.com/ananurkaromah/agentic-job-search">Repo</a>
 
 **Tech Stack:** Python, Databricks, Lakebase, Vector Search, RAG, AI Agents, REST API, MCP, Databricks Apps.
 <br>**Highlights:**
-- Built an AI job search application using lakebase to structure relational data in a lakehouse design, and used Databricks Vector Search for semantic retrieval.
- - Created RAG-based matching of job reqs to candidate skills, and provided agent tools for job discovery, matching, and application through a set of REST APIs.
- - Combined and integrated the data, retrieval, and agent workflow, and deployed it as a Databricks App.
+- Built a prototype that loads job data with PySpark into Lakebase Postgres and embeds postings in pgvector for RAG-style job-to-skill matching.
+- Deployed as Databricks Apps: a Flask dashboard and a tool server for job search and matching.
 
-
-### NYC Taxi-pipeline (GitHub Repo) | DataTalksClub Homework Project
+### - NYC Taxi-pipeline (GitHub Repo) | DataTalksClub Homework Project
 <a href="https://github.com/ananurkaromah/nyc-taxi-data-pipeline-with-dlt">Repo</a>
 
 **Tech Stack:** Python, DuckDB, Docker, dlt, Metabase
